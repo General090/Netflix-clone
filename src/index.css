@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.home-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('../src/Assets/netflixbg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.netflix-size{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
